@@ -1,4 +1,4 @@
-package animal.kingdom;
+package animal.kingdom.animals;
 
 abstract class Bear implements Animal {
     String name = "곰";

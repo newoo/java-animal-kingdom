@@ -1,4 +1,4 @@
-package animal.kingdom;
+package animal.kingdom.animals;
 
 class Tiger implements Animal {
     private String name = "호랑이";

@@ -1,4 +1,4 @@
-package animal.kingdom;
+package animal.kingdom.animals;
 
 class PolarBear extends Bear {
     private String name = "북극곰";
