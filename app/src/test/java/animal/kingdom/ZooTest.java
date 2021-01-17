@@ -25,4 +25,10 @@ class ZooTest {
         zoo.beExited();
         assertEquals(UserPosition.OUT, zoo.userPosition);
     }
+
+    @Test void enteredTigerArea() {
+        Zoo zoo = new Zoo();
+        zoo.beEnteredTigerArea(); 
+        assertEquals(UserPosition.TIGERAREA, zoo.userPosition);
+    }
 }

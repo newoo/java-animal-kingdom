@@ -16,4 +16,9 @@ class Zoo {
         userPosition = UserPosition.OUT;
         return this;
     }
+
+    Zoo beEnteredTigerArea() {
+        userPosition = UserPosition.TIGERAREA;
+        return this;
+    }
 }
