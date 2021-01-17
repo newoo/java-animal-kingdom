@@ -11,4 +11,9 @@ class Zoo {
         userPosition = UserPosition.GATE;
         return this;
     }
+
+    Zoo beExited() {
+        userPosition = UserPosition.OUT;
+        return this;
+    }
 }
